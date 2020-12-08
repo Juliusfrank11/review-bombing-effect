@@ -262,7 +262,7 @@ len(bombed_games)
 
 In technical terms ARIMA models model time series data as a sequence of random variables <img src="https://render.githubusercontent.com/render/math?math=\{X\}_{t=0}&mode=inline">. Let <img src="https://render.githubusercontent.com/render/math?math=BX_t=X_{t-1}, B^2X_t=X_{t-2}&mode=inline"> and so on. All ARIMA models can be expressed in the form
 
-![formula](https://render.githubusercontent.com/render/math?math=\huge\left[1-\Phi(B)\right]X_t=\left[1+\Theta(B)\right]\epsilon_t,\quad\epsilon_i\sim\mathcal{N}\left(0,\sigma^2\right))
+![formula](https://render.githubusercontent.com/render/math?math=\huge\left[1-\Phi(B)\right]X_t=\left[1%2B\Theta(B)\right]\epsilon_t,\quad\epsilon_i\sim\mathcal{N}\left(0,\sigma^2\right))
 
 where
 
