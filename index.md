@@ -124,7 +124,7 @@ for appid in os.listdir('obj/'):
     exec('game_objects.append({0})'.format(appid)) 
 ```
 
-We can see a review bomb event for *Team Fortress 2* in mid-2016 via the `Game.plot()` corresponding to the release of the controversial "Meet Your Match Update" in which many community-requested features went ignored by the development team.
+We can see a review bomb event for *Team Fortress 2* in mid-2016 in the following chart corresponding to the release of the controversial "Meet Your Match Update," in which many community-requested features went ignored by the development team.
 
 
 ```python
