@@ -261,9 +261,13 @@ len(bombed_games)
 **A**uto**r**egressive **I**ntegrated **M**oving **A**verage (ARIMA) models are a class of statistical models that can be used to forecast time series data. In layman's terms, ARIMA models state that time-labeled data can be represented by adding a certain percentage of the previous data points and a random value. Specifically, the second observation of time-labeled data can be expressed as the first observation plus some white noise. Every observation after that is then a combination of the last $p$ many values and the white noise component of the last $q$ many values. 
 
 In technical terms ARIMA models model time series data as a sequence of random variables $\{X\}_{t=0}$. Let $BX_t=X_{t-1}, B^2X_t=X_{t-2}$ and so on. All ARIMA models can be expressed in the form
+
 ![formula](https://render.githubusercontent.com/render/math?math=\huge\left[1-\Phi(B)\right]X_t=\left[1+\Theta(B)\right]\epsilon_t,\quad\epsilon_i\sim\mathcal{N}\left(0,\sigma^2\right))
+
 where
+
 ![formula](https://render.githubusercontent.com/render/math?math=\huge\Phi(B)=\sum_{i=1}^{p}\alpha_iB^i,\quad\Theta(B)=\sum_{i=1}^{q}\beta_iB^i)
+
 for some <img src="https://render.githubusercontent.com/render/math?math=p,q\in\mathbb{N}, \alpha_i,\beta_i\in[0,1)&mode=inline">. 
 The "integrated" factor refers to differencing between time steps. This sometimes must be done to maintain model validity, as ARIMA models require a constant (technically, "stationary") mean. Luckily, such cases are still expressible in this general form, one need only shift $p$ by some factor of $d$. $d$ is explicitly given as the multiplicity of the [unit root](https://en.wikipedia.org/wiki/Unit_root) of the polynomial $\Phi$.
 
