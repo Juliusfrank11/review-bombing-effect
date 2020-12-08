@@ -79,11 +79,6 @@ def make_full_df(appid,resample_format='W-MON'):
     df['Percent Recommended'] = df['Recommended?']/df['# of Reviews']
     return df
 ```
-
-    C:\Users\PC\Anaconda3\lib\site-packages\numpy\_distributor_init.py:32: UserWarning: loaded more than 1 DLL from .libs:
-    C:\Users\PC\Anaconda3\lib\site-packages\numpy\.libs\libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll
-    C:\Users\PC\Anaconda3\lib\site-packages\numpy\.libs\libopenblas.PYQHXLVVQ7VESDPUVUADXEVJOBGHJPAY.gfortran-win_amd64.dll
-      stacklevel=1)
     
 
 
