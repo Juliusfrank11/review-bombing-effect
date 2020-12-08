@@ -1,0 +1,11 @@
+steamreviews
+matplotlib
+pandas
+numpy
+seaborn
+pmdarima
+pickle
+os
+json
+datetime
+math
