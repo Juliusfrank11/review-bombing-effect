@@ -1,8 +1,4 @@
-# Data Mining Project 3
-## By Julius Frank
-### Review Bombing’s Effect on Biweekly Concurrent Players in Steam Games
-
-## Introduction
+# Introduction
 [Review Bombing](https://en.wikipedia.org/wiki/Review_bomb) is a phenomenon where a large influx of negative reviews are given to a product after negative public relations events. Review bombing occurs most often in the video game industry and are characterized by reviews which do not focus on the game proper, but secondary aspects such as price, DRM (copyright-protection), a developer's other games, or public relations statements. A demonstrative example being [a mass influx of negative reviews to *Doom Eternal* after the creators of the game updated the game to include new DRM software.](https://www.destructoid.com/doom-eternal-adds-denuvo-on-pc-immediately-gets-review-bombed-591137.phtml) Previous case studies of specific review bombing events have shown [little impact on sales](https://www.pcgamer.com/steam-review-bombing-is-working-and-chinese-players-are-a-powerful-new-voice/), however, since many games reply on micro-transactions and in-game stores to generate revenue, it may be more important to ask if review bombing events affect the number of players actively playing a game. Perhaps review bombing voicing concern than dissatisfaction. This is what the present study investigates. 
 
 Using data from Steam itself and SteamDB, I gather time series data on 200 popular steam games. Using ARIMA models to predict future sales before review bombing events, I investigate if there is evidence of a decrease in average weekly concurrent players after review bombing events in the short, medium, and long term. I find that there is strong evidence of a short-term effect, but weaker evidence for a medium and long term effect.
@@ -255,7 +251,7 @@ len(bombed_games)
 
 
 
-## Statistical Testing
+# Statistical Testing
 
 ### ARIMA Models
 **A**uto**r**egressive **I**ntegrated **M**oving **A**verage (ARIMA) models are a class of statistical models that can be used to forecast time series data. In layman's terms, ARIMA models state that time-labeled data can be represented by adding a certain percentage of the previous data points and a random value. Specifically, the second observation of time-labeled data can be expressed as the first observation plus some white noise. Every observation after that is then a combination of the last <img src="https://render.githubusercontent.com/render/math?math=p&mode=inline"> many values and the white noise component of the last <img src="https://render.githubusercontent.com/render/math?math=q&mode=inline"> many values. 
