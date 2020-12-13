@@ -738,7 +738,7 @@ As we can see, while short-term loss often translates to medium-term lost and me
 - There is significant evidence that review bombing has a short-term negative effect on a game's player base.
 - There is much less significant evidence for a long or medium term negative effect.
 - Most losses from review bombing are not catastrophic.
-- Shot-term losses do translate into long-term losses a slight majority of the time, but not always.
+- Short-term losses do translate into long-term losses a slight majority of the time, but not always.
 
 ## Research Suggestions
 It may be interesting to see if the same relationship can be seen in *sales* rather than player count. Sadly, information about sales of Steam games is only kept by internal analytics departments or the payed website [SteamSpy](https://steamspy.com). If one were to take on this research, I would recommend trying to isolate the effects of price drops, which would require much more econometric analysis than I have done in this report.
