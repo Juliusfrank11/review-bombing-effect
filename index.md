@@ -672,7 +672,7 @@ for term in [short_term,mid_term,long_term]:
     Z = -1.766 (p = 0.039)
     
 
-As we can see, the <img src="https://render.githubusercontent.com/render/math?math=p&mode=inline">-values are significantly negative at a significance level of <img src="https://render.githubusercontent.com/render/math?math=\alpha=0.05&mode=inline">, in fact, the short-term effect is found to be negative even at a significance level of <img src="https://render.githubusercontent.com/render/math?math=\alpha=0.01&mode=inline">. This essentially means the probability that review bombing events on average have a negative impact on player base is more than 95% for each term length.
+As we can see, the <img src="https://render.githubusercontent.com/render/math?math=p&mode=inline">-values are significantly negative at a significance level of <img src="https://render.githubusercontent.com/render/math?math=\alpha=0.05&mode=inline">, in fact, the short-term effect is found to be negative even at a significance level of <img src="https://render.githubusercontent.com/render/math?math=\alpha=0.01&mode=inline">. This essentially means if we were to assume that review bombing <i>does not</i> have a negative impact on the player base of games, we would have less than a 5% chance to get the data we collected. Thus, this assumption is likely false.
 
 One may question how often player loss from review-bombing events is prolonged in the short term. To this extent, I display the correlation matrix of my data.
 
